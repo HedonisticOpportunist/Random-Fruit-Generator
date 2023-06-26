@@ -62,7 +62,7 @@ private:
 			if (randomNumber < cumulativeWeight)
 			{
 				selectedRandomFruit = fruitNames[i];
-				selectedFruitCount[i]++; // increment the count of the fruit has been selected
+				selectedFruitCount[i]++; // increment the count of the fruit that has been selected
 				return selectedRandomFruit;
 
 			}
