@@ -49,7 +49,7 @@ private:
 	*/
 	std::string getFruitName()
 	{
-
+		// https://python-course.eu/numerical-programming/weighted-probabilities.php
 		int randomNumber = generateRandomNumber();
 		int cumulativeWeight = 0;
 		std::string selectedRandomFruit;
@@ -64,7 +64,6 @@ private:
 				selectedRandomFruit = fruitNames[i];
 				selectedFruitCount[i]++; // increment the count of the fruit that has been selected
 				return selectedRandomFruit;
-
 			}
 		}
 	}
